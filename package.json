@@ -1,0 +1,28 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.1.0",
+  "description": "Tic Tac Toe",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wastegas/tic-tac-toe.git"
+  },
+  "keywords": [
+    "javascript",
+    "jquery",
+    "freecodecamp",
+    "tic-tac-toe",
+    "minimax",
+    "ai",
+    "game"
+  ],
+  "author": "Ronnie Baron <wastegas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wastegas/tic-tac-toe/issues"
+  },
+  "homepage": "http://wastegas.github.io/tic-tac-toe"
+}
