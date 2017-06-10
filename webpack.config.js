@@ -26,6 +26,10 @@ let config = {
 	},
 	plugins: [
 		new ExtractTextWebpackPlugin('style.css'),
+		new webpack.ProvidePlugin({
+			$: 'jquery',
+			jQuery: 'jquery'
+		})
 	],
 	devServer: {
 		contentBase: path.resolve(__dirname, './public'),
