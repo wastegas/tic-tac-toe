@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+$gamefont: 'Varela Round', sans-serif;
+
 .square {
 	width: 100px;
 	height: 100px;
@@ -11,4 +15,10 @@
 .h {
 	border-top: 1px solid #000;
 	border-bottom: 1px solid  #000;
+}
+
+td {
+	font-family: $gamefont;
+	font-size: 90px;
+	text-align: center;
 }
